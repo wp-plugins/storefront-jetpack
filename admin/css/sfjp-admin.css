@@ -1,0 +1,121 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#sfjp-settings-page .mod-cards {
+    font-size: 0;
+    margin: -0.7%;
+}
+
+#sfjp-settings-page .mod-cards:after, #sfjp-settings-page .mod-card:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+#sfjp-settings-page .mod-cards * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin:0;
+}
+
+#sfjp-settings-page .mod-card-wrap{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.7%;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+#sfjp-settings-page .mod-card {
+    background: #fff;
+}
+
+#sfjp-settings-page .mod-card .deactivate {
+    display: none;
+}
+
+#sfjp-settings-page .mod-card .activate {
+    display: inline-block;
+}
+
+#sfjp-settings-page .mod-card.active .deactivate {
+    display: inline-block;
+}
+
+#sfjp-settings-page .mod-card.active .activate {
+    display: none;
+}
+
+#sfjp-settings-page .mod-img {
+    width: 140px;
+    padding: 10px;
+    float: left;
+}
+
+#sfjp-settings-page .mod-details {
+    margin-left: 140px;
+    margin-right: 110px;
+    padding: 15px 0;
+}
+
+#sfjp-settings-page .mod-cards p.mod-description {
+    margin: 16px 0;
+}
+
+#sfjp-settings-page .mod-controls {
+    width: 100px;
+    padding: 10px 10px 10px 0;
+    float: right;
+    text-align: right;
+}
+
+.button.pootle {
+    position: relative;
+    z-index: 10;
+    background: #ef4832;
+    border-color: #b32 !important;
+    color: #fff;
+    margin: 0 1px 5px 5px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 rgba(0,0,0,.25);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.52),0 1px 0 rgba(0,0,0,.25);
+}
+.button.pootle:hover {
+    background: #e04025;
+    color: #fff;
+}
+
+@media only screen and (max-width:782px) {
+    #sfjp-settings-page .mod-card-wrap {
+        width: 100%;
+        padding:1%;
+    }
+
+    #sfjp-settings-page .mod-cards {
+        margin: -1%;
+    }
+
+    #sfjp-settings-page .mod-controls {
+        width: auto;
+    }
+
+    #sfjp-settings-page .mod-details {
+        margin-left: 140px;
+        margin-right: 120px;
+        padding: 15px 0;
+    }
+}
+@media only screen and (min-width: 1600px) {
+    #sfjp-settings-page .mod-card-wrap {
+        width: 33%;
+        padding:0.5%;
+    }
+
+    #sfjp-settings-page .mod-cards {
+        margin: -0.5%;
+    }
+}

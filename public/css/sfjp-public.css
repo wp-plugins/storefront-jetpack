@@ -1,0 +1,14 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#sfjp-topbar {
+    background-color: #1F1F20;
+    height: 40px;
+    line-height: 40px;
+}
+
+#sfjp-topbar p {
+    color: #fff;
+    text-align: center;
+}
